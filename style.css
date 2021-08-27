@@ -1,0 +1,37 @@
+
+.calculator{
+    display:flex;
+    width: 280px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#formula{
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+#display{
+    font-size: 35px;
+    font-style: bold;;
+    align-self: flex-end;
+}
+
+button {
+    width: 70px;
+    height: 60px;
+    font-size: 30px;
+}
+
+
+#equals {
+    width: 140px;
+}
+
+.button-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
